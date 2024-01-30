@@ -1,28 +1,13 @@
-// import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Main from './components/main';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Age</th>
-        </tr>
-        <tr>
-          <td>parth</td>
-          <td>19</td>
-        </tr>
-        <tr>
-          <td>krishna</td>
-          <td>22</td>
-        </tr>
-        <tr>
-          <td>shyam</td>
-          <td>24</td>
-        </tr>
-      </table>
-    </div>
+    <>
+    <Header/>
+    <Main/>
+    </>
   );
 }
 
